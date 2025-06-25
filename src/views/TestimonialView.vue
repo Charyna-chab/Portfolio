@@ -83,29 +83,32 @@
 </template>
 <script setup>
 import { ref, computed } from 'vue'
+import rady from '@/assets/image/rady.png'
+import yon from '@/assets/image/yon.png'
+import him from '@/assets/image/him.png'
 
 // Testimonials data
 const testimonials = ref([
   {
     id: 1,
-    name: 'Sarah Johnson',
+    name: 'Rady Y',
     role: 'CEO, TechStart',
-    quote: 'Rady delivered an exceptional website that exceeded our expectations. Professional and reliable!',
-    avatar: '/placeholder.svg?height=60&width=60'
+    quote: 'Charyna delivered an exceptional website that exceeded our expectations. Professional and reliable!',
+    avatar: rady
   },
   {
     id: 2,
-    name: 'Mike Chen',
+    name: 'Yon Yen',
     role: 'Marketing Director',
-    quote: 'The mobile app Rady developed for us has been a game-changer for our business.',
-    avatar: '/placeholder.svg?height=60&width=60'
+    quote: 'The mobile app Charyna developed for us has been a game-changer for our business.',
+    avatar: yon
   },
   {
     id: 3,
-    name: 'Emily Davis',
+    name: 'Him Hey',
     role: 'Startup Founder',
-    quote: 'Amazing attention to detail and great communication throughout the project.',
-    avatar: '/placeholder.svg?height=60&width=60'
+    quote: 'Charyna Service Amazing attention to detail and great communication throughout the project.',
+    avatar: him
   }
 ])
 

@@ -56,11 +56,11 @@
               <div class="space-y-4">
                 <div class="flex items-center">
                   <MailIcon class="w-6 h-6 text-blue-400 mr-4" />
-                  <span>rady@example.com</span>
+                  <span>charyna.chab@student.passerellesnumeriques.org</span>
                 </div>
                 <div class="flex items-center">
                   <PhoneIcon class="w-6 h-6 text-blue-400 mr-4" />
-                  <span>+855 12 345 678</span>
+                  <span>+855 86 561 460</span>
                 </div>
                 <div class="flex items-center">
                   <MapPinIcon class="w-6 h-6 text-blue-400 mr-4" />

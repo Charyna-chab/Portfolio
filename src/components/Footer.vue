@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Rady. All rights reserved.</p>
+          <p>&copy; charyna student at PNC.</p>
         </div>
       </div>
     </footer>

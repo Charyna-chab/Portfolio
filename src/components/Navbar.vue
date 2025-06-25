@@ -1,15 +1,15 @@
 <template>
  <!-- Navigation -->
-    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm border-b border-gray-200 z-50">
+    <nav class="fixed top-0 w-full bg-gray-900 backdrop-blur-sm border-b border-gray-200 z-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center py-4">
-          <div class="text-2xl font-bold text-gray-900">Charyna</div>
+          <div class="text-2xl font-bold text-white">CHARYNA</div>
           <div class="hidden md:flex space-x-8">
-            <a href="#home" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
-            <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
-            <a href="#projects" class="text-gray-700 hover:text-blue-600 transition-colors">Projects</a>
-            <a href="#services" class="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
-            <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+            <a href="#home" class="text-white hover:text-blue-600 transition-colors">Home</a>
+            <a href="#about" class="text-white hover:text-blue-600 transition-colors">About</a>
+            <a href="#projects" class="text-white hover:text-blue-600 transition-colors">Projects</a>
+            <a href="#services" class="text-white hover:text-blue-600 transition-colors">Services</a>
+            <a href="#contact" class="text-white hover:text-blue-600 transition-colors">Contact</a>
           </div>
           <button @click="toggleMobileMenu" class="md:hidden">
             <MenuIcon class="h-6 w-6" />

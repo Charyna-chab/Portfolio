@@ -50,23 +50,23 @@ const blogPosts = ref([
   {
     id: 1,
     title: 'Getting Started with Vue.js 3',
-    excerpt: 'Learn the basics of Vue.js 3 and its new features',
-    date: 'Dec 15, 2024',
-    image: '/placeholder.svg?height=200&width=300'
+    excerpt: 'Vue is popular for its simplicity and smooth integration with existing projects and offers reactive data binding.',
+    date: 'Jun 25, 2025',
+    image: 'https://i.pinimg.com/736x/de/ce/27/dece274f2547d597065ab1c189fd32af.jpg'
   },
   {
     id: 2,
-    title: 'Modern CSS Techniques',
-    excerpt: 'Explore the latest CSS features and best practices',
-    date: 'Dec 10, 2024',
-    image: '/placeholder.svg?height=200&width=300'
+    title: 'Laravel Framework',
+    excerpt: 'Laravel is known for its clean syntax, developer-friendly features, and robust ecosystem that speeds up development.',
+    date: 'Jun 25, 2025',
+    image: 'https://i.pinimg.com/736x/38/bb/a9/38bba976a7268e24be31f1cc04408b06.jpg'
   },
   {
     id: 3,
-    title: 'Building Responsive Layouts',
-    excerpt: 'Tips for creating layouts that work on all devices',
-    date: 'Dec 5, 2024',
-    image: '/placeholder.svg?height=200&width=300'
+    title: 'PHP',
+    excerpt: 'PHP works well with databases like MySQL and powers many content management systems, including WordPress.',
+    date: 'Jun 25, 2025',
+    image: 'https://i.pinimg.com/736x/0f/77/4d/0f774d11c2f80008225f0f4181ec8e22.jpg'
   }
 ])
 </script>

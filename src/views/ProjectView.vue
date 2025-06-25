@@ -69,6 +69,10 @@
 </template>
 <script setup>
 import { ref, computed } from 'vue'
+import brochureImage from '@/assets/image/Brochure.jpg'
+import posSystemImage from '@/assets/image/pos-system.png'
+import canImage from '@/assets/image/canteen.png'
+import quizImage from '@/assets/image/quiz.png'
 // Project categories
 const projectCategories = ['All', 'Web Development', 'UI Design', 'Mobile App']
 
@@ -76,64 +80,55 @@ const projectCategories = ['All', 'Web Development', 'UI Design', 'Mobile App']
 const projects = ref([
   {
     id: 1,
-    name: 'E-commerce Platform',
+    name: 'POS System',
     category: 'Web Development',
     description: 'A full-stack e-commerce solution with payment integration',
-    image: '/placeholder.svg?height=300&width=400',
-    technologies: ['Vue.js', 'Node.js', 'MongoDB', 'Stripe'],
+    image: posSystemImage,
+    technologies: ['HTML', 'PHP', 'MySQL', 'CSS'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
     id: 2,
-    name: 'Portfolio Website',
-    category: 'UI Design',
+    name: 'Automate Generation Document',
+    category: 'Web Development',
     description: 'Modern portfolio design for a creative agency',
     image: '/placeholder.svg?height=300&width=400',
-    technologies: ['Figma', 'HTML', 'CSS', 'JavaScript'],
+    technologies: ['Algorithm', 'Tinker'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
     id: 3,
-    name: 'Task Management App',
+    name: 'Quiz App',
     category: 'Mobile App',
     description: 'Cross-platform mobile app for task management',
-    image: '/placeholder.svg?height=300&width=400',
-    technologies: ['React Native', 'Firebase', 'Redux'],
+    image: quizImage,
+    technologies: ['JavaScript', 'HTML', 'CSS','Bootstrap','API'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
     id: 4,
-    name: 'Restaurant Website',
-    category: 'Web Development',
+    name: 'Canteen Website',
+    category: 'UI Design',
     description: 'Responsive website for a local restaurant',
-    image: '/placeholder.svg?height=300&width=400',
-    technologies: ['Vue.js', 'Tailwind CSS', 'Netlify'],
+    image: canImage,
+    technologies: ['HTML', 'CSS'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
     id: 5,
-    name: 'Brand Identity',
+    name: 'Brochure',
     category: 'UI Design',
     description: 'Complete brand identity design for a startup',
-    image: '/placeholder.svg?height=300&width=400',
-    technologies: ['Adobe Illustrator', 'Photoshop'],
+    image: brochureImage,
+    technologies: ['Figma'],
     liveUrl: '#',
     githubUrl: '#'
   },
-  {
-    id: 6,
-    name: 'Weather App',
-    category: 'Mobile App',
-    description: 'Beautiful weather app with location-based forecasts',
-    image: '/placeholder.svg?height=300&width=400',
-    technologies: ['Flutter', 'Weather API', 'SQLite'],
-    liveUrl: '#',
-    githubUrl: '#'
-  }
+  
 ])
 
 </script>
