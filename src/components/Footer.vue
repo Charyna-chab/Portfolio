@@ -1,39 +1,40 @@
 <template>
-  <footer class="bg-gray-900 text-gray-400 py-8 mt-12">
-    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-      
-      <!-- Branding -->
-      <div>
-        <h2 class="text-white text-xl font-bold mb-2">Charyna Chab</h2>
-        <p class="text-sm">Building elegant and powerful web applications with love 💻</p>
-      </div>
-
-      <!-- Quick Links -->
-      <div>
-        <h3 class="text-white font-semibold mb-3">Quick Links</h3>
-        <ul class="space-y-2 text-sm">
-          <li><a href="#" class="hover:text-white">Portfolio</a></li>
-          <li><a href="#" class="hover:text-white">Services</a></li>
-          <li><a href="#" class="hover:text-white">Contact</a></li>
-          <li><a href="#" class="hover:text-white">Blog</a></li>
-        </ul>
-      </div>
-
-      <!-- Socials -->
-      <div>
-        <h3 class="text-white font-semibold mb-3">Follow Me</h3>
-        <div class="flex space-x-4">
-          <a href="#" class="hover:text-white">🌐</a>
-          <a href="#" class="hover:text-white">🐦</a>
-          <a href="#" class="hover:text-white">📸</a>
-          <a href="#" class="hover:text-white">💼</a>
+  <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Charyna</h3>
+            <p class="text-gray-400">Web Developer based in Cambodia, creating beautiful digital experiences.</p>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+            <div class="space-y-2">
+              <a href="#home" class="block text-gray-400 hover:text-white transition-colors">Home</a>
+              <a href="#about" class="block text-gray-400 hover:text-white transition-colors">About</a>
+              <a href="#projects" class="block text-gray-400 hover:text-white transition-colors">Projects</a>
+              <a href="#services" class="block text-gray-400 hover:text-white transition-colors">Services</a>
+              <a href="#contact" class="block text-gray-400 hover:text-white transition-colors">Contact</a>
+            </div>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Connect</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                <GithubIcon class="w-6 h-6" />
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                <LinkedinIcon class="w-6 h-6" />
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                <TwitterIcon class="w-6 h-6" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+          <p>&copy; 2024 Rady. All rights reserved.</p>
         </div>
       </div>
-    </div>
-
-    <!-- Bottom Line -->
-    <div class="text-center text-sm text-gray-500 mt-8 border-t border-gray-700 pt-4">
-      © 2025 Charyna Chab. All rights reserved.
-    </div>
-  </footer>
+    </footer>
 </template>
