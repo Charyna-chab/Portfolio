@@ -21,7 +21,7 @@ import TimeLine from '@/components/About/TimeLine.vue';
             <div class="relative mb-6">
               <!-- Glowing effect behind image -->
               <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-2xl opacity-30 scale-110"></div>
-              <img src="c:\Users\Charyna.Chab\Pictures\photo_2025-05-20_10-44-51.jpg" alt="Charyna" class="relative z-10 w-48 h-48 rounded-full mx-auto border-4 border-blue-500 shadow-xl object-cover">
+              <img src="../assets/image/ryna.png" alt="Charyna" class="relative z-10 w-48 h-48 rounded-full mx-auto border-4 border-blue-500 shadow-xl object-cover">
             </div>
             <h3 class="text-2xl font-bold text-white mb-2">Charyna Chab</h3>
             <p class="text-blue-400 font-semibold mb-4">Web Developer</p>

@@ -29,7 +29,7 @@
           <div class="relative">
             <div class="w-80 h-80 mx-auto relative">
               <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-3xl opacity-30"></div>
-              <img src="c:\Users\Charyna.Chab\Pictures\07.JPG" alt="Charyna" class="relative z-10 w-full h-full object-cover rounded-full border-4 border-gray-700">
+              <img src="../assets/image/07.JPG" alt="Charyna" class="relative z-10 w-full h-full object-cover rounded-full border-4 border-gray-700">
             </div>
           </div>
         </div>
