@@ -69,17 +69,34 @@
               </div>
             </div>
             
-            <div>
-              <h3 class="text-xl font-bold mb-4">Follow Me</h3>
+           <div>
+              <h3 class="text-xl font-bold mb-4 text-white">Follow Me</h3>
               <div class="flex space-x-4">
-                <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
-                  <GithubIcon class="w-5 h-5" />
+                <!-- LinkedIn -->
+                <a
+                  href="https://www.linkedin.com/in/charyna-chab-4b3b61344"
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                >
+                  <Linkedin class="w-5 h-5 text-white" />
                 </a>
-                <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
-                  <LinkedinIcon class="w-5 h-5" />
+
+                <!-- Facebook -->
+                <a
+                  href="https://www.facebook.com/charyna.chab "
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                >
+                  <Facebook class="w-5 h-5 text-white" />
                 </a>
-                <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
-                  <TwitterIcon class="w-5 h-5" />
+
+                <!-- Telegram -->
+                <a
+                  href="https://t.me/chabcharyna"
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                >
+                  <Send class="w-5 h-5 text-white" />
                 </a>
               </div>
             </div>
@@ -91,6 +108,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { Linkedin, Facebook, Send } from 'lucide-vue-next';
 // Computed properties
 const mobileMenuOpen = ref(false)
 const selectedCategory = ref('All')
