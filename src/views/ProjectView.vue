@@ -73,6 +73,7 @@ import brochureImage from '@/assets/image/Brochure.jpg'
 import posSystemImage from '@/assets/image/pos-system.png'
 import canImage from '@/assets/image/canteen.png'
 import quizImage from '@/assets/image/quiz.png'
+import autoImage from '@/assets/image/auto.png'
 // Project categories
 const projectCategories = ['All', 'Web Development', 'UI Design', 'Mobile App']
 
@@ -86,17 +87,17 @@ const projects = ref([
     image: posSystemImage,
     technologies: ['HTML', 'PHP', 'MySQL', 'CSS'],
     liveUrl: '#',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/Charyna-chab/VC1-Group8-Drink'
   },
   {
     id: 2,
     name: 'Automate Generation Document',
     category: 'Web Development',
     description: 'Modern portfolio design for a creative agency',
-    image: '/placeholder.svg?height=300&width=400',
+    image: autoImage,
     technologies: ['Algorithm', 'Tinker'],
     liveUrl: '#',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/Soda-Morn/G10-automated-document-generation-transcript-certificates-'
   },
   {
     id: 3,
@@ -106,7 +107,7 @@ const projects = ref([
     image: quizImage,
     technologies: ['JavaScript', 'HTML', 'CSS','Bootstrap','API'],
     liveUrl: '#',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/Charyna-chab/JS-project-G13'
   },
   {
     id: 4,
@@ -116,7 +117,7 @@ const projects = ref([
     image: canImage,
     technologies: ['HTML', 'CSS'],
     liveUrl: '#',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/Charyna-chab/canteen-pnc'
   },
   {
     id: 5,
