@@ -20,16 +20,33 @@
           <div>
             <h4 class="text-lg font-semibold mb-4">Connect</h4>
             <div class="flex space-x-4">
-              <a href="#" class="text-gray-400 hover:text-white transition-colors">
-                <GithubIcon class="w-6 h-6" />
-              </a>
-              <a href="#" class="text-gray-400 hover:text-white transition-colors">
-                <LinkedinIcon class="w-6 h-6" />
-              </a>
-              <a href="#" class="text-gray-400 hover:text-white transition-colors">
-                <TwitterIcon class="w-6 h-6" />
-              </a>
-            </div>
+                <!-- LinkedIn -->
+                <a
+                  href="https://www.linkedin.com/in/charyna-chab-4b3b61344"
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                >
+                  <Linkedin class="w-5 h-5 text-white" />
+                </a>
+
+                <!-- Facebook -->
+                <a
+                  href="https://www.facebook.com/charyna.chab "
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                >
+                  <Facebook class="w-5 h-5 text-white" />
+                </a>
+
+                <!-- Telegram -->
+                <a
+                  href="https://t.me/chabcharyna"
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                >
+                  <Send class="w-5 h-5 text-white" />
+                </a>
+              </div>
           </div>
         </div>
         <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
@@ -38,3 +55,6 @@
       </div>
     </footer>
 </template>
+<script setup>
+import { Facebook, Linkedin, Send } from 'lucide-vue-next';
+</script>
