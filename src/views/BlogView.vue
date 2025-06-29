@@ -1,72 +1,103 @@
 <template>
-    <!-- Blog Section -->
-    <section class="py-20 bg-gray-900">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <span class="text-blue-400 font-semibold text-lg">Blog</span>
-          <h2 class="text-5xl font-bold text-white mb-4">Latest Articles</h2>
-          <p class="text-xl text-gray-300">Insights, tutorials, and thoughts from my development journey</p>
-          <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-6"></div>
-        </div>
-        
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-          <article 
-            v-for="post in blogPosts" 
-            :key="post.id"
-            class="group transition-all duration-300"
-          >
-            <!-- Image -->
-            <div class="relative overflow-hidden rounded-xl mb-6">
-              <img :src="post.image" :alt="post.title" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500 grayscale group-hover:grayscale-0">
-              <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300"></div>
-            </div>
-            
-            <!-- Content -->
-            <div>
-              <div class="flex items-center gap-4 mb-3">
-                <span class="text-blue-400 text-sm font-medium">{{ post.category }}</span>
-                <span class="text-gray-500 text-sm">{{ post.date }}</span>
-              </div>
-              
-              <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors leading-tight">{{ post.title }}</h3>
-              <p class="text-gray-400 mb-4 leading-relaxed">{{ post.excerpt }}</p>
-              
-              <div class="flex items-center justify-between pt-4 border-t border-gray-800">
-                <span class="text-gray-500 text-sm">{{ post.readTime }} min read</span>
-                <a href="#" class="text-blue-400 hover:text-blue-300 font-semibold transition-colors">
-                  Read Article →
-                </a>
-              </div>
-            </div>
-          </article>
+  <section class="py-6 bg-gray-900">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="text-center mb-4">
+        <span class="text-blue-400 text-sm font-semibold">Blog</span>
+        <h2 class="text-xl font-bold text-white">Programming Languages</h2>
+        <div class="w-12 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-2"></div>
+      </div>
+
+      <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4">
+        <div
+          v-for="post in blogPosts"
+          :key="post.id"
+          class="bg-white p-2 rounded-md shadow-sm flex items-center justify-center h-32"
+        >
+          <img
+            :src="post.image"
+            :alt="post.title"
+            class="h-full w-auto object-contain"
+          />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <Tools/>
 </template>
+
+
+
+
 <script setup>
-import { ref, computed } from 'vue'
-// Blog posts data
+import Tools from '@/components/Blogs/Tools.vue';
+import { ref } from 'vue'
+
 const blogPosts = ref([
   {
     id: 1,
-    title: 'Getting Started with Vue.js 3',
-    excerpt: 'Vue is popular for its simplicity and smooth integration with existing projects and offers reactive data binding.',
-    date: 'Jun 25, 2025',
+    title: 'Vue.js 3',
     image: 'https://i.pinimg.com/736x/de/ce/27/dece274f2547d597065ab1c189fd32af.jpg'
   },
   {
     id: 2,
-    title: 'Laravel Framework',
-    excerpt: 'Laravel is known for its clean syntax, developer-friendly features, and robust ecosystem that speeds up development.',
-    date: 'Jun 25, 2025',
+    title: 'Laravel',
     image: 'https://i.pinimg.com/736x/38/bb/a9/38bba976a7268e24be31f1cc04408b06.jpg'
   },
   {
     id: 3,
     title: 'PHP',
-    excerpt: 'PHP works well with databases like MySQL and powers many content management systems, including WordPress.',
-    date: 'Jun 25, 2025',
     image: 'https://i.pinimg.com/736x/0f/77/4d/0f774d11c2f80008225f0f4181ec8e22.jpg'
-  }
+  },
+  {
+    id: 4,
+    title: 'HTML',
+    image: 'https://i.pinimg.com/736x/fb/1e/7f/fb1e7f9db2540c3194a9179094a925e2.jpg'
+  },
+  {
+    id: 5,
+    title: 'CSS',
+    image: 'https://i.pinimg.com/736x/8e/95/47/8e95479da2c5e493b835c8533c2d5ba5.jpg'
+  },
+  {
+    id: 6,
+    title: 'Python',
+    image: 'https://i.pinimg.com/736x/ed/66/63/ed666327dd3ce274d94f2b3547155891.jpg'
+  },
+  {
+    id: 7,
+    title: 'Node.js',
+    image: 'https://i.pinimg.com/736x/e3/a2/49/e3a2498d2fabe3948c98e784f7f51808.jpg'
+  },
+  {
+    id: 8,
+    title: 'JavaScript',
+    image: 'https://i.pinimg.com/736x/49/9b/1d/499b1d8f955acd1d3ec30f217eddfa2a.jpg'
+  },
+  {
+    id: 9,
+    title: 'Bootstrap',
+    image: 'https://i.pinimg.com/736x/c1/78/5d/c1785d50a929254419fa4aad0560b058.jpg'
+  },
+  {
+    id: 10,
+    title: 'MySql',
+    image: 'https://i.pinimg.com/736x/09/7b/34/097b349ab1d78c15744c3a89ff457939.jpg'
+  },
+  {
+    id: 11,
+    title: 'Tailwind',
+    image: 'https://i.pinimg.com/736x/14/74/9e/14749e54dbdf5a0acd58f67743a84afa.jpg'
+  },
+  {
+    id: 12,
+    title: 'SASS',
+    image: 'https://i.pinimg.com/736x/eb/38/be/eb38be560364abb7ee39c5c4f4e05f7e.jpg'
+  },
+  {
+    id: 13,
+    title: 'OOP',
+    image: 'https://i.pinimg.com/736x/a2/a4/9b/a2a49bee63c81d66c187d6ed94ee5528.jpg'
+  },
 ])
 </script>
+

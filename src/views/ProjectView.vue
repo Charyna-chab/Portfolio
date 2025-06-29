@@ -74,6 +74,7 @@ import posSystemImage from '@/assets/image/pos-system.png'
 import canImage from '@/assets/image/canteen.png'
 import quizImage from '@/assets/image/quiz.png'
 import autoImage from '@/assets/image/auto.png'
+import portImage from '@/assets/image/port.png'
 // Project categories
 const projectCategories = ['All', 'Web Development', 'UI Design', 'Mobile App']
 
@@ -85,8 +86,8 @@ const projects = ref([
     category: 'Web Development',
     description: 'A full-stack e-commerce solution with payment integration',
     image: posSystemImage,
-    technologies: ['HTML', 'PHP', 'MySQL', 'CSS'],
-    liveUrl: '#',
+    technologies: ['HTML', 'PHP', 'MySQL', 'CSS', 'OOP', 'Bootstrap'],
+    liveUrl: 'https://youtu.be/Hn6FbJIpXto?si=Su2P6dixXEdZB4S1',
     githubUrl: 'https://github.com/Charyna-chab/VC1-Group8-Drink'
   },
   {
@@ -96,7 +97,7 @@ const projects = ref([
     description: 'Modern portfolio design for a creative agency',
     image: autoImage,
     technologies: ['Algorithm', 'Tinker'],
-    liveUrl: '#',
+    liveUrl: 'https://youtu.be/8ipB3ki-Plk?si=ubmnMIY5xzeUwJdP',
     githubUrl: 'https://github.com/Soda-Morn/G10-automated-document-generation-transcript-certificates-'
   },
   {
@@ -116,7 +117,7 @@ const projects = ref([
     description: 'Responsive website for a local restaurant',
     image: canImage,
     technologies: ['HTML', 'CSS'],
-    liveUrl: '#',
+    liveUrl: 'https://pnc-canteen-a3.netlify.app/',
     githubUrl: 'https://github.com/Charyna-chab/canteen-pnc'
   },
   {
@@ -128,6 +129,16 @@ const projects = ref([
     technologies: ['Figma'],
     liveUrl: '#',
     githubUrl: '#'
+  },
+  {
+    id: 6,
+    name: 'Portfolio',
+    category: 'UI Design',
+    description: 'Create for so what I have done and which programming languages and tools that I used.',
+    image: portImage,
+    technologies: ['Vue.js', 'HTML', 'Tailwind'],
+    liveUrl: 'https://portfolio-436s.vercel.app/',
+    githubUrl: 'https://github.com/Charyna-chab/Portfolio'
   },
   
 ])

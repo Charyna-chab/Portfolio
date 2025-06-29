@@ -33,10 +33,15 @@ import TimeLine from '@/components/About/TimeLine.vue';
             <SocailMedia/>
             
             <!-- Download Button -->
-            <button class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 w-full shadow-lg hover:shadow-xl transform hover:scale-105">
-              <DownloadIcon class="w-5 h-5 inline mr-2" />
-              Download Resume
-            </button>
+                <a
+                  href="/charyna-cv.pdf"         
+                  download                 
+                  class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 w-full shadow-lg hover:shadow-xl transform hover:scale-105 inline-block text-center"
+                >
+                  <DownloadIcon class="w-5 h-5 inline mr-2" />
+                  Download Resume
+                </a>
+
           </div>
         </div>
         <!-- Timeline -->
