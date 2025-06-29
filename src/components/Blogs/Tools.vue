@@ -95,6 +95,21 @@ const blogPosts = ref([
     title: 'Jira',
     image: 'https://i.pinimg.com/736x/37/0a/6c/370a6cb7a084c4b4c2fe667147509e1b.jpg'
   },
+  {
+    id: 14,
+    title: 'Xampp',
+    image: 'https://i.pinimg.com/736x/5c/3d/4b/5c3d4b018e0995b97171a35e06da9dae.jpg'
+  },
+  {
+    id: 15,
+    title: 'MobaXterm',
+    image: 'https://i.pinimg.com/736x/47/7b/0e/477b0e1877cef35dd985f6ab85a27aa1.jpg'
+  },
+  {
+    id: 16,
+    title: 'Thunder Client',
+    image: 'https://www.katk.dev/static/86f2f48b9b0dd900b4892f49f4bbab81/e4f06/logo.png'
+  },
 ])
 </script>
 
